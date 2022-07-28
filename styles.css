@@ -31,3 +31,12 @@
     border-radius: 5px;
     color: #404040;
 }
+.bg-register{
+    background-color:#0CAFFF ;
+    border-radius: 10px;
+}
+.btn-register{
+    color:#0CAFFF ;
+    background-color: white;
+    
+}
