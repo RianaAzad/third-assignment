@@ -1,9 +1,8 @@
-/* .carousel-item{
-    min-height: 300px;
-    background: no-repeat scroll center scroll;
-    -webkit-background-size: cover;
-    background-size: cover;
-} */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+}
 .carousel-item::before{
     content: "";
     display: block;
@@ -38,4 +37,14 @@
 }
 .bg-elearning{
     background-color: #F0F8FF;
+}
+@media only screen and (max-width: 576px)
+{
+    .carousel-caption{
+        padding: auto;
+    }
+    .carousel-item
+    {
+        min-height: 300px;
+    }
 }
